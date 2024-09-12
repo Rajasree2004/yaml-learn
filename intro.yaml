@@ -1,1 +1,49 @@
-apple : "I am red"
+# Strings: Strings can be written in plain style, single-quoted, or double-quoted.
+
+plain_string: This is a plain string
+single_quoted_string: 'This is a single-quoted string'
+double_quoted_string: "This is a double-quoted string"
+
+# Numbers: Numbers can be integers or floating-point.
+
+integer: 42
+floating_point: 3.14159
+
+# Booleans: Booleans can be represented as true or false.
+
+boolean_true: true
+boolean_false: false
+
+# Null: Null values can be represented as null, ~, or an empty value.
+
+null_value: null
+tilde_null: ~
+empty_null: 
+
+# Sequences are ordered collections of items. They are similar to lists or arrays in other programming languages. In YAML, sequences are denoted by a dash (-) followed by a space.
+
+fruits:
+  - Apple
+  - Banana
+  - Cherry
+
+# Mappings are collections of key-value pairs, similar to dictionaries or hashes in other programming languages. In YAML, mappings are denoted by a colon (:) followed by a space.
+
+person:
+  name: John Doe
+  age: 30
+  is_student: false
+
+# Timestamps
+
+timestamp: 2023-10-01T12:34:56Z
+
+# Binary data
+
+binary_data: !!binary |
+  R0lGODlhAQABAIAAAAUEBAAAACwAAAAAAQABAAACAkQBADs=
+
+# Custom Tags
+
+custom_type: !my_custom_type
+  key: value
