@@ -4,6 +4,7 @@ plain_string: This is a plain string
 single_quoted_string: 'This is a single-quoted string'
 double_quoted_string: "This is a double-quoted string"
 
+---
 # Numbers: Numbers can be integers or floating-point.
 
 integer: 42
