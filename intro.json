@@ -1,0 +1,11 @@
+{
+    "list":[
+        "apple",
+        "banana",
+        "mango",
+        "Apple"
+    ],
+    "mango": "yellow",
+    "age"  : 56
+}
+

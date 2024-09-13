@@ -1,0 +1,69 @@
+name  : rajasree  #this works
+fruit : "apple"
+job   : 'software engg'
+bio   : I am Rajasree.
+I love reading books # this is wrong
+
+# to preserve indentation and put multiple lines
+
+bio : |
+  I am rajasree. 
+  I love reading books
+
+
+# write single line in multiple lines
+
+message : >
+  this is 
+  will be in 
+  one single 
+  line.
+
+...
+
+num : 8707
+float : 78.098
+bool_false: no  #false, False, FALSE, no, No, NO, off, Off, OFF  any of these can be used
+bool_true : yes #true, True, TRUE, yes, Yes, YES, on, On, ON  any of these can be used
+
+...
+
+#specifying datatype
+
+zero     : !!int 0
+posnum   : !!int 45
+negnum   : !!int -45
+binary   : !!int 0b1110
+octal    : !!int 06547
+hexa     : !!int 0x45
+commaVal : !!int +540_000 #540,000
+exponent : !!int 6.023E56
+
+
+floating : !!float 0.364
+infinity : !!float .inf
+not_a_num : !!float .nan
+
+boolean : !!bool NO
+
+msg : !!str zkfsnkjf
+
+middlename : !!null Null #null NULL ~
+~ : this is null key
+
+#array rep
+my_array:
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
+
+my_arr : [1,2,3,4,5]
+
+date: !!date 2024-09-13
+time: !!time 14:30:00
+datetime: !!timestamp 2024-09-13T14:30:00
+datetime_utc: 2024-09-13T14:30:00Z
+datetime_offset: 2024-09-13T14:30:00+02:00
+datetime in india : 2024-09-13T14:30:00 +05:30

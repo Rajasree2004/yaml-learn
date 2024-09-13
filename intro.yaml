@@ -47,4 +47,3 @@ binary_data: !!binary |
 
 custom_type: !my_custom_type
   key: value
-
